@@ -1,4 +1,4 @@
-body {
+* {
     box-sizing: border-box;
     padding: 0; 
     margin: 0;
@@ -34,10 +34,12 @@ img {
 }
 
 #artistname {
-    color: #53ebeb;
+    color: #76f5f5;
     display: flex; 
     justify-content: center;
     font-size: 3em;
+    padding: .5em;
+    text-align: center;
 }
 
 #video {
@@ -52,3 +54,53 @@ img {
     height: 60vh;
 }
 
+#musicpage {
+    height: 100vh; 
+    background-color: #008080;
+}
+
+#songtitle {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    color: #76f5f5; 
+    text-align: center;
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    gap: 3em;
+}
+
+.streamicons {
+    text-decoration: none;
+    color: #004f4f;
+    font-size: 3em; 
+    transition: .3s;
+}
+
+.streamicons:hover {
+    color: #53ebeb;
+}
+
+.buttons {
+    display: flex; 
+    flex-direction: column;
+    gap: .7em;
+}
+
+#songart {
+    width: 40vw;
+    min-width: 40vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3em;
+    }
+}
