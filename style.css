@@ -1,0 +1,54 @@
+body {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+img {
+    max-width: 100%;
+}
+
+#homepage {
+    height: 100vh; 
+    background-color: #008080;
+}
+
+.socials {
+    display: flex; 
+    justify-content: center;
+    gap: 2%;
+    font-size: 2em;
+    padding-top: 1em;
+}
+
+.icons {
+    text-decoration: none;
+    color: #004f4f;
+    transition: .3s;
+
+}
+
+.icons:hover {
+    color: #53ebeb;
+}
+
+#artistname {
+    color: #53ebeb;
+    display: flex; 
+    justify-content: center;
+    font-size: 3em;
+}
+
+#video {
+    display: flex; 
+    justify-content: center;
+    max-width: 100%; 
+}
+
+#video > * {
+    border-radius: 5px;
+    width: 70%;
+    height: 60vh;
+}
+
