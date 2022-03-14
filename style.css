@@ -79,6 +79,7 @@ img {
     color: #004f4f;
     font-size: 3em; 
     transition: .3s;
+    font-size: 3em;
 }
 
 .streamicons:hover {
@@ -104,6 +105,11 @@ img {
         align-items: center;
         gap: 3em;
     }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 #contact {
@@ -124,6 +130,7 @@ img {
     justify-content: center;
     align-items: center;
     height: 60vh;
+    width: 100vw;
 }
 
 #emailcontainer {
@@ -138,13 +145,18 @@ img {
     border: none;
 }
 
+#textcontainer {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 #emailtext {
     padding-bottom: 12em;
     padding-left: .5em;
     word-wrap: break-word;
     border-radius: 2px;
     border: none;
-    /* min-width: 100%; */
+    max-width: 100vw;
 }
 
 #submitbutton {
@@ -164,7 +176,7 @@ img {
 
 #btn:hover {
     cursor: pointer;
-    background-color: #006868;
+    background-color: #96d4d4;
 }
 
 footer {
@@ -183,6 +195,7 @@ footer {
 #copyright > p {
     color: #76f5f5; 
     font-size: .7em;
+    text-align: center;
 }
 
 .fa-solid fa-copyright {
