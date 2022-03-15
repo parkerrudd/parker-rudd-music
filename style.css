@@ -121,7 +121,8 @@ img {
     display: flex;
     justify-content: center;
     color: #76f5f5;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #formcontainer {
@@ -130,25 +131,28 @@ img {
     justify-content: center;
     align-items: center;
     height: 60vh;
-    width: 100vw;
 }
 
 #emailcontainer {
     padding-bottom: 3em;
     display: flex; 
     justify-content: center;
+    align-items: center;
 }
 
 #emailaddress {
     padding: .5em;
     border-radius: 3px;
     border: none;
+    width: 100%;
 }
 
 #textcontainer {
-    padding-left: 1em;
-    padding-right: 1em;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
 }
+
 
 #emailtext {
     padding-bottom: 12em;
@@ -194,7 +198,7 @@ footer {
 
 #copyright > p {
     color: #76f5f5; 
-    font-size: .7em;
+    font-size: .8em;
     text-align: center;
 }
 
