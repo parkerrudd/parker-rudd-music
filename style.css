@@ -175,12 +175,13 @@ img {
     border: none;
     color: #035050;
     background-color: #76f5f5;  
-    transition: .2s; 
+    transition: .1s; 
 }
 
 #btn:hover {
     cursor: pointer;
-    background-color: #0aafaf;
+    background-color: #056363;
+    color: #76f5f5; 
 }
 
 footer {
