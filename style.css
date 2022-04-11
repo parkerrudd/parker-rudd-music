@@ -93,8 +93,22 @@ img {
 }
 
 #songart {
-    width: 40vw;
-    min-width: 40vw;
+    max-width: 40vw;
+    /* min-width: 40vw; */
+}
+
+@media screen and (max-width: 600px) {
+    #songart {
+        max-width: 60vw;
+    }
+
+    #songtitle {
+        font-size: 1.3em;
+    }
+
+    #artistname {
+        font-size: 2em;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -109,6 +123,7 @@ img {
     .buttons {
         display: flex;
         flex-direction: row;
+        font-size: 4vw;
     }
 }
 
