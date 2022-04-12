@@ -33,6 +33,17 @@ img {
     color: #53ebeb;
 }
 
+.signature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#signature {
+    max-width: 20vw;
+}
+
 #artistname {
     color: #76f5f5;
     display: flex; 
