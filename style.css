@@ -156,6 +156,12 @@ img {
     background-color: #008080;
 }
 
+@media screen and (max-width: 730px) {
+    #contact {
+        margin-top: -5em;
+    }
+}
+
 #contactbanner {
     display: flex;
     justify-content: center;
