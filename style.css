@@ -22,6 +22,12 @@ img {
     padding-top: 1em;
 }
 
+@media screen  and (max-width: 730px) {
+    .socials { 
+        gap: 5%;
+    }
+}
+
 .icons {
     text-decoration: none;
     color: #004f4f;
