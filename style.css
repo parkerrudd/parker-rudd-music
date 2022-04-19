@@ -54,9 +54,10 @@ img {
     color: #76f5f5;
     display: flex; 
     justify-content: center;
-    font-size: 3em;
+    font-size: 4em;
     padding: .5em;
     text-align: center;
+    text-shadow: 5px 4px 0px #004F4F;
 }
 
 #video {
