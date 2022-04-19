@@ -127,7 +127,7 @@ img {
     }
 
     #songtitle {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     #artistname {
@@ -159,6 +159,12 @@ img {
 @media screen and (max-width: 730px) {
     #contact {
         margin-top: -5em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #contact {
+        margin-top: -20em;
     }
 }
 
