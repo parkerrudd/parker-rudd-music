@@ -75,12 +75,13 @@
         <h1 id="contactbanner">Contact</h1>
         <div id="formcontainer">
             <form id="contactform" action="https://formsubmit.co/parkerruddmusic@gmail.com" method="POST">
-                <input type="hidden" name="_subject" value="New website email!">
+                <input type="hidden" name="_subject" value="New music website email!">
                 <div id="emailcontainer">
                     <input id="emailaddress" type="email" name="email" placeholder="Email Address" required>
                 </div>
                 <div id="textcontainer">
-                    <input id="emailtext" type="text" size="45" name="message" placeholder="Write your message here..." required>
+                    <!-- <input id="emailtext" type="text" size="45" name="message" placeholder="Write your message here..." required> -->
+                    <textarea name="message" id="emailtext" cols="45" rows="5" placeholder="Write your message here..." required></textarea>
                 </div>
                 <div id="submitbutton">
                     <button id="btn" type="submit">Send</button>
