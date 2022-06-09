@@ -20,6 +20,7 @@ img {
     gap: 2%;
     font-size: 2em;
     padding-top: 1em;
+    animation: fadeIn 1s ease-in;
 }
 
 @media screen  and (max-width: 730px) {
@@ -64,18 +65,29 @@ img {
     padding: .5em;
     text-align: center;
     text-shadow: 5px 4px 0px #004F4F;
+    animation: fadeIn 1.5s ease-in;
 }
 
 #video {
     display: flex; 
     justify-content: center;
     max-width: 100%; 
+    animation: fadeIn 1s ease-in;
 }
 
 #video > * {
     border-radius: 5px;
     width: 70%;
     height: 60vh;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 #musicpage {
