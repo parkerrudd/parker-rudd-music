@@ -45,6 +45,8 @@ img {
     justify-content: center;
     align-items: center;
     margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #signature {
