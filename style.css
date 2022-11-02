@@ -93,6 +93,7 @@ img {
     border-radius: 5px;
     width: 70%;
     height: 60vh;
+    box-shadow: 0px 5px 26px 5px rgba(0,0,0,0.29);
 }
 
 @keyframes fadeIn {
@@ -162,6 +163,7 @@ img {
 
 #songart {
     max-width: 40vw;    
+    box-shadow: 0px 5px 26px 5px rgba(0,0,0,0.29);
     /* min-width: 40vw; */
 }
 
@@ -198,6 +200,11 @@ img {
 #contact {
     height: 75vh; 
     background-color: #008080;
+}
+
+#contactform {
+    max-width: 80vw;
+    max-height: 50vh;
 }
 
 @media screen and (max-width: 730px) {
