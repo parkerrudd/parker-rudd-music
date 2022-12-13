@@ -3,6 +3,11 @@
     padding: 0; 
     margin: 0;
     font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
+}
+
+section {
+  padding-bottom: 20px;
 }
 
 img {
@@ -11,7 +16,7 @@ img {
 
 #homepage {
     height: 100vh; 
-    background-color: rgb(233, 217, 217);
+    background-color: #ffff;
 }
 
 .socials {
@@ -33,11 +38,11 @@ img {
     text-decoration: none;
     color: #031e1e;
     transition: .1s;
-
+    opacity: .85;
 }
 
 .icons:hover {
-    color: #ffff;
+  opacity: 1;
 }
 
 .signature-container {
@@ -52,8 +57,6 @@ img {
 
 #signature {
     max-width: 20vw;
-    /* background: black; */
-    mix-blend-mode:lighten;
 }
 
 @media screen and (max-width: 768px){
@@ -97,8 +100,12 @@ img {
 }
 
 #musicpage {
-    height: 100vh; 
-    background-color: rgb(233, 217, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffff;
 }
 
 #songtitle {
@@ -121,11 +128,11 @@ img {
     color: #031e1e;
     font-size: 3em; 
     transition: .1s;
-    font-size: 3em;
+    opacity: .85;
 }
 
 .streamicons:hover {
-    color: #ffff;
+  opacity: 1;
 }
 
 .buttons {
@@ -188,9 +195,58 @@ img {
     }
 }
 
+#merch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #ffff;
+  text-align: center;
+}
+
+#merch > * {
+  font-size: 2em;
+  padding: .5em;
+}
+
+.merch-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.merch-grid > a {
+  opacity: .85;
+  transition: .1s;
+}
+
+.merch-grid > a:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .merch-grid {
+    display: grid;
+    grid-template-columns: repeat(8, calc(50% - 40px));
+    overflow-x: scroll;
+  } 
+
+  #merch > * {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+ .merch-grid {
+    display: grid;
+    grid-template-columns: repeat(8, calc(75% - 20px));
+    overflow-x: scroll;
+  }
+}
+
 #contact {
     height: 75vh; 
-    background-color: rgb(233, 217, 217);
+    background-color: #ffff;
 }
 
 #contactform {
@@ -238,12 +294,15 @@ img {
     border-radius: 3px;
     border: none;
     width: 100%;
+    border: 1px solid black;
 }
 
 #textcontainer {
    display: flex;
    justify-content: center;
    align-items: center; 
+   border: 1px solid black;
+   border-radius: 3px;
 }
 
 
@@ -277,8 +336,8 @@ img {
 }
 
 footer {
-    height: 20vh;
-    background-image: linear-gradient(rgb(233, 217, 217), #6d7777);
+    height: 25vh;
+    background-image: linear-gradient(#ffff, #6d7777);
 }
 
 #copyright {
