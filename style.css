@@ -22,7 +22,7 @@ img {
 
 #homepage {
     height: 100vh; 
-    background-color: #008080;
+    background-color: rgb(233, 217, 217);
 }
 
 .socials {
@@ -42,13 +42,13 @@ img {
 
 .icons {
     text-decoration: none;
-    color: #004f4f;
-    transition: .3s;
+    color: #031e1e;
+    transition: .1s;
 
 }
 
 .icons:hover {
-    color: #53ebeb;
+    color: #ffff;
 }
 
 .signature-container {
@@ -63,6 +63,8 @@ img {
 
 #signature {
     max-width: 20vw;
+    /* background: black; */
+    mix-blend-mode:lighten;
 }
 
 @media screen and (max-width: 768px){
@@ -107,7 +109,7 @@ img {
 
 #musicpage {
     height: 100vh; 
-    background-color: #008080;
+    background-color: rgb(233, 217, 217);
 }
 
 #songtitle {
@@ -115,7 +117,7 @@ img {
     justify-content: center;
     font-size: 2em;
     padding: 1em;
-    color: #76f5f5; 
+    color: #031e1e; 
     text-align: center;
 }
 
@@ -127,14 +129,14 @@ img {
 
 .streamicons {
     text-decoration: none;
-    color: #004f4f;
+    color: #031e1e;
     font-size: 3em; 
-    transition: .3s;
+    transition: .1s;
     font-size: 3em;
 }
 
 .streamicons:hover {
-    color: #53ebeb;
+    color: #ffff;
 }
 
 .buttons {
@@ -199,7 +201,7 @@ img {
 
 #contact {
     height: 75vh; 
-    background-color: #008080;
+    background-color: rgb(233, 217, 217);
 }
 
 #contactform {
@@ -222,7 +224,7 @@ img {
 #contactbanner {
     display: flex;
     justify-content: center;
-    color: #76f5f5;
+    color: #031e1e;
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -275,20 +277,19 @@ img {
     padding: .5em 1em;
     border-radius: 3px;
     border: none;
-    color: #035050;
-    background-color: #76f5f5;  
+    color: #ffff;
+    background-color: #031e1e;  
     transition: .1s; 
 }
 
 #btn:hover {
     cursor: pointer;
-    background-color: #056363;
-    color: #76f5f5; 
+    background-color: rgb(46, 51, 51);
 }
 
 footer {
     height: 20vh;
-    background-image: linear-gradient(#008080, #004f4f);
+    background-image: linear-gradient(rgb(233, 217, 217), #6d7777);
 }
 
 #copyright {
@@ -300,7 +301,7 @@ footer {
 }
 
 #copyright > p {
-    color: #76f5f5; 
+    color: #031e1e; 
     font-size: .8em;
     text-align: center;
 }
