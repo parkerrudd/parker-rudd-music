@@ -6,15 +6,23 @@
     scroll-behavior: smooth;
 }
 
-section {
-  padding-bottom: 20px;
-}
-
 img {
     max-width: 100%;
 }
 
+#shop {
+  position: fixed;
+  right: 2%;
+  top: 2%;
+  font-size: 2.2em;
+  z-index: 1;
+}
+
 #homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 100vh; 
     background-color: #ffff;
 }
@@ -24,7 +32,7 @@ img {
     justify-content: center;
     gap: 3%;
     font-size: 2.2em;
-    padding-top: 1em;
+    margin-top: 2em;
     animation: fadeIn 1s ease-in;
 }
 
@@ -49,19 +57,17 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    /* margin-top: 3em; */
     animation: fadeIn 3s;
 }
 
 #signature {
-    max-width: 20vw;
+    max-width: 15vw;
 }
 
 @media screen and (max-width: 768px){
     #signature {
-        max-width: 35vw;
+        max-width: 35vw;  
     }
 }
 
@@ -126,7 +132,7 @@ img {
 .streamicons {
     text-decoration: none;
     color: #031e1e;
-    font-size: 3em; 
+    font-size: 2.5em; 
     transition: .1s;
     opacity: .85;
 }
@@ -136,7 +142,8 @@ img {
 }
 
 .buttons {
-    display: flex; 
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: .7em;
 }
@@ -160,14 +167,13 @@ img {
 }
 
 #songart {
-    max-width: 40vw;    
+    max-width: 35vw;    
     box-shadow: 0px 5px 26px 5px rgba(0,0,0,0.29);
-    /* min-width: 40vw; */
 }
 
 @media screen and (max-width: 600px) {
     #songart {
-        max-width: 80vw;
+        max-width: 80vw !important;
     }
 
     #songtitle {
@@ -180,6 +186,10 @@ img {
 }
 
 @media screen and (max-width: 1000px) {
+    #songart {
+      max-width: 55vw;
+    }
+
     .container {
         display: flex; 
         flex-direction: column;
@@ -193,6 +203,18 @@ img {
         flex-direction: row;
         font-size: 3.5vw;
     }
+
+    .streamicons {
+      font-size: 2.5em;
+    }
+
+    .socials {
+      font-size: 2em;
+    }
+
+    #shop {
+      font-size: 2em;
+    }
 }
 
 #merch {
@@ -203,6 +225,7 @@ img {
   height: 100vh;
   background-color: #ffff;
   text-align: center;
+  margin-top: 5em;
 }
 
 #merch > * {
@@ -252,18 +275,7 @@ img {
 #contactform {
     max-width: 80vw;
     max-height: 50vh;
-}
-
-@media screen and (max-width: 730px) {
-    #contact {
-        margin-top: -5em;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    #contact {
-        margin-top: -5em;
-    }
+    margin-bottom: 4em;
 }
 
 #contactbanner {
@@ -336,6 +348,9 @@ img {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     height: 25vh;
     background-image: linear-gradient(#ffff, #6d7777);
 }
