@@ -248,6 +248,10 @@ img {
 }
 
 @media screen and (max-width: 800px) {
+  #merch {
+    margin-top: 0em;
+  }
+
   .merch-grid {
     display: grid;
     grid-template-columns: repeat(8, calc(50% - 40px));
