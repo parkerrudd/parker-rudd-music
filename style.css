@@ -63,6 +63,7 @@ img {
 
 #signature {
     max-width: 15vw;
+    margin-top: 1em;
 }
 
 @media screen and (max-width: 768px){
