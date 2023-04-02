@@ -129,6 +129,13 @@ img {
     padding: 1em;
     color: #031e1e; 
     text-align: center;
+    font-family: Helvetica Neue;
+    font-weight: 400;
+}
+
+.font {
+    font-family: Helvetica Neue;
+    font-weight: 400;
 }
 
 .container {
