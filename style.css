@@ -264,7 +264,7 @@ padding-bottom: 1em;
 }
 
 .merch-images {
-    height: 350px;
+    max-height: 350px;
     width: fit-content;
 }
 
@@ -284,7 +284,7 @@ padding-bottom: 1em;
     }
 
     .merch-images {
-        height: 200px;
+        max-height: 200px;
         width: fit-content;
     }
 }
